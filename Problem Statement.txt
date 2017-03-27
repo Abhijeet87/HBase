@@ -1,0 +1,26 @@
+Create a table named EMP in HBase with following columns. Some of the specifications below have been ommited for you to discover/debug.
+EMP_NO
+DEPT_NO
+FNAME
+LNAME
+SALARY
+DATE_OF_BIRTH
+
+Make sure that when you are done with all the DML steps below you are left with at least 2 Employees who work in the same department if you want to try the Bonus questions.
+Populate at least 8 employee records in this table using Java API.
+Use Hbase-shell to verify the data you have populated.
+Update salary for one of the employee using Java API.
+Use Hbase-shell to verify the data you have updated.
+Delete one of the employee using Java API.
+Use Hbase-shell to verify the data you have deleted.
+Use Java API to display remaining data on screen which uses GET operation.
+Use Java API to display remaining data on screen which uses SCAN operation.
+
+*BONUS*
+Part1- 
+Use Hbase-shell to display DEPT_NO and SUM of salaries of any 2 employees from the same department.
+***OR***
+Use Java API to display DEPT_NO and SUM of salaries of any 2 employees from the same department.
+
+Part2- 
+Compare the efforts required to do *ALL* steps of this exercise in HBASE and HIVE on their *RESPECTIVE COMMAND LINE*.  What do you think? Which is better? Why?
